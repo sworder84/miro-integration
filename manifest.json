@@ -17,6 +17,6 @@
     "systems": [],
   "socket": false,
   "url": "",          // URL твоего репозитория (если есть)
-  "manifest": "",   // URL файла manifest.json (если есть)
+  "manifest": "https://github.com/sworder84/miro-integration/blob/main/manifest.json",   // URL файла manifest.json (если есть)
   "download": ""     // URL архива с модулем (если есть)
 }

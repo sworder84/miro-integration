@@ -1,0 +1,73 @@
+/* Miro Integration Module Styles */
+
+.miro-integration-header {
+    background-color: #333 !important;
+    color: #ddd !important;
+    border: 2px solid #555 !important;
+    border-bottom: none !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7) !important;
+    font-family: "Amarante", serif !important;
+    font-size: 1.1em !important;
+    font-weight: bold !important;
+    padding: 8px !important;
+    border-radius: 0 !important;
+    z-index: 101 !important;
+}
+
+.miro-integration-header .collapse-button {
+    background-color: #444 !important;
+    border: 1px solid #555 !important;
+    color: #888 !important;
+    border-radius: 0 !important;
+    padding: 1px !important;
+    width: 20px !important;
+    height: 20px !important;
+    box-shadow: none !important;
+    z-index: 102 !important;
+    font-size: 0.8em !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.miro-integration-header .collapse-button:hover {
+    filter: brightness(1.2);
+    color: #ddd !important;
+}
+
+/* Стили для iframe (убираем resize и overflow) */
+.miro-integration-frame {
+    border: none !important; /* Убираем границу у самого iframe */
+    box-shadow: none !important;
+    background-color: white !important;
+    z-index: 100 !important;
+    /* resize: both;  <-- УДАЛЯЕМ */
+    /* overflow: hidden; <-- УДАЛЯЕМ */
+    pointer-events: auto; /* Важно! Чтобы iframe был кликабельным */
+}
+
+/* Стили для overlay */
+.miro-integration-overlay {
+    position: absolute;
+    border: 2px solid #555 !important; /* Видимая граница */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7) !important;
+    border-radius: 0 !important;
+    z-index: 99 !important; /* Ниже заголовка, но выше iframe */
+    resize: both;
+    overflow: hidden; /* Обязательно для resize: both */
+    pointer-events: auto; /* Чтобы overlay был кликабельным */
+}
+
+/* Стили для ресайзера (улучшает визуальное восприятие) */
+.miro-integration-overlay::-webkit-resizer {
+    background-color: #444 !important;
+    border: 1px solid #555 !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+/* Стили для ресайзера в Firefox*/
+.miro-integration-overlay {
+  scrollbar-color: #555 #333;
+  scrollbar-width: thin;
+}

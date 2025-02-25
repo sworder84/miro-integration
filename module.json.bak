@@ -1,0 +1,22 @@
+{
+  "name": "miro-integration",
+  "title": "Miro Integration",
+  "description": "Embeds a Miro board into the Foundry VTT scene.",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "minimumCoreVersion": "12",
+  "compatibleCoreVersion": "12",
+  "scripts": [
+    "miro-integration.js"
+  ],
+  "styles": [
+    "styles.css"
+  ],
+  "esmodules": [],
+  "dependencies": [],
+  "systems": [],
+  "socket": false,
+  "url": "",
+  "manifest": "",
+  "download": ""
+}

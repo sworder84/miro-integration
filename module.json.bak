@@ -2,8 +2,8 @@
   "name": "miro-integration",
   "title": "Miro Integration",
   "description": "Embeds a Miro board into the Foundry VTT scene.",
-  "version": "1.0.0",
-  "author": "Your Name",
+  "version": "1.0.4",
+  "author": "sworder84",
   "minimumCoreVersion": "12",
   "compatibleCoreVersion": "12",
   "scripts": [
@@ -16,7 +16,7 @@
   "dependencies": [],
   "systems": [],
   "socket": false,
-  "url": "",
-  "manifest": "",
-  "download": ""
+  "url": "https://github.com/sworder84/miro-integration",
+  "manifest": "https://github.com/sworder84/miro-integration/blob/main/module.json",
+  "download": "https://github.com/sworder84/miro-integration/archive/refs/heads/main.zip"
 }

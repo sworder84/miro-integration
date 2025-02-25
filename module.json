@@ -1,22 +1,25 @@
 {
-  "name": "miro-integration",
-  "title": "Miro Integration",
-  "description": "Embeds a Miro board into the Foundry VTT scene.",
-  "version": "1.0.4",
-  "author": "Your Name",
-  "minimumCoreVersion": "12",
-  "compatibleCoreVersion": "12",
+  "name": "miro-integration",  // УНИКАЛЬНЫЙ идентификатор модуля (lowercase-with-hyphens)
+  "title": "Miro Integration", // Название модуля (для отображения пользователям)
+  "description": "Embeds a Miro board into the Foundry VTT scene.", // Краткое описание
+  "version": "1.0.0",  // Версия вашего модуля (используйте семантическое версионирование)
+  "author": "Your Name",  // Ваше имя или ник
+  "minimumCoreVersion": "12", // Минимальная версия Foundry VTT
+  "compatibleCoreVersion": "12", // Совместимая (протестированная) версия Foundry VTT
   "scripts": [
-    "miro-integration.js"
+    "miro-integration.js" // Путь к вашему JavaScript-файлу
   ],
   "styles": [
-    "styles.css"
+    "styles.css" // Путь к вашему CSS-файлу (если есть)
   ],
   "esmodules": [],
   "dependencies": [],
+   "relationships": {
+        "requires": []
+  },
   "systems": [],
   "socket": false,
-  "url": "",
-  "manifest": "",
-  "download": ""
+  "url": "https://github.com/sworder84/miro-integration",  // URL вашего репозитория GitHub
+  "manifest": "https://github.com/sworder84/miro-integration/releases/latest/download/manifest.json",  // URL манифеста (см. ниже)
+  "download": "https://github.com/sworder84/miro-integration/releases/latest/download/module.zip"  // URL архива с модулем (см. ниже)
 }

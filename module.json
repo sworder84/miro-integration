@@ -1,5 +1,5 @@
 {
-  "name": "miro-integration",  // УНИКАЛЬНЫЙ идентификатор модуля (lowercase-with-hyphens)
+  "name": "miro-integration", // УНИКАЛЬНЫЙ идентификатор модуля (lowercase-with-hyphens)
   "title": "Miro Integration", // Название модуля (для отображения пользователям)
   "description": "Embeds a Miro board into the Foundry VTT scene.", // Краткое описание
   "version": "1.0.0",  // Версия вашего модуля (используйте семантическое версионирование)

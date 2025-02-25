@@ -20,6 +20,6 @@
   "systems": [],
   "socket": false,
   "url": "https://github.com/sworder84/miro-integration",  // URL вашего репозитория GitHub
-  "manifest": "https://github.com/sworder84/miro-integration/blob/1.0.0/module.json",  // URL манифеста (см. ниже)
-  "download": "https://github.com/sworder84/miro-integration/releases/download/1.0.0/module.zip"  // URL архива с модулем (см. ниже)
+  "manifest": "https://github.com/sworder84/miro-integration/releases/latest/download/manifest.json",  // URL манифеста (см. ниже)
+  "download": "https://github.com/sworder84/miro-integration/releases/latest/download/module.zip"  // URL архива с модулем (см. ниже)
 }

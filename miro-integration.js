@@ -287,7 +287,7 @@ const MiroIntegration = {
     }
 };
 
-// Добавляем кнопку на панель инструментов
+// Добавляем кнопку на панель инструментов *ВСЕМ* пользователям
 Hooks.on("getSceneControlButtons", (controls) => {
     //Убираем проверку на game.user.isGM
     controls.find(c => c.name === "token").tools.push({
@@ -296,6 +296,5 @@ Hooks.on("getSceneControlButtons", (controls) => {
         icon: "fas fa-chalkboard",
         onClick: () => MiroIntegration.showMiroFrame(),
         button: true
-        });
-    }
+    });
 });

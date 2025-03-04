@@ -289,13 +289,13 @@ const MiroIntegration = {
 
 // Добавляем кнопку на панель инструментов
 Hooks.on("getSceneControlButtons", (controls) => {
-    if (game.user.isGM) {
-        controls.find(c => c.name === "token").tools.push({
-            name: "miro",
-            title: "Miro Board",
-            icon: "fas fa-chalkboard",
-            onClick: () => MiroIntegration.showMiroFrame(),
-            button: true
+    //Убираем проверку на game.user.isGM
+    controls.find(c => c.name === "token").tools.push({
+        name: "miro",
+        title: "Miro Board",
+        icon: "fas fa-chalkboard",
+        onClick: () => MiroIntegration.showMiroFrame(),
+        button: true
         });
     }
 });
